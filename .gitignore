@@ -1,0 +1,25 @@
+# Julia compiled/cache files
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+*.ji
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+
+# Coverage / test output
+coverage/
+*.info
+
+# Build artifacts
+build/
+dist/
