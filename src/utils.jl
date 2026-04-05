@@ -4,7 +4,6 @@ using Statistics
 
 """
 analysis_cols(dataset::DataFrame, cols::Vector{Symbol})
-analysis_cols is a function that computes the correlation matrix for a specified set of columns in a DataFrame. The correlation matrix is a square matrix that shows the pairwise correlation coefficients between the columns, indicating how strongly they are correlated with each other. The resulting `cor_matrix` can be used for further analysis or visualization, such as creating a heatmap to visualize the correlations among the selected columns.
 
 # Purpose
 This function computes the correlation matrix among the listed columns.The result `cor_matrix` is typically used as the input data for creating a correlation heatmap for visualization.
